@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumer-first-kafka/consumer-first-kafka.iml" filepath="$PROJECT_DIR$/consumer-first-kafka/consumer-first-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kafka_projects.iml" filepath="$PROJECT_DIR$/.idea/kafka_projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/producer-first-kafka/producer-first-kafka.iml" filepath="$PROJECT_DIR$/producer-first-kafka/producer-first-kafka.iml" />
+    </modules>
+  </component>
+</project>
