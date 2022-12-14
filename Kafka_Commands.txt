@@ -38,7 +38,7 @@ Step-3 : Set Path to ZOOKEEPER in Environment variables upto bin folder
 
 Step-4 : Start Zookeeper server using below command from Kafka folder
 
-    Command : zookeeper-server-start.bat zookeeper.properties
+    Command : ./bin/zookeeper-server-start.sh config/zookeeper.properties
 
 Note: Above command will available in kafka/bin/windows folder
 
@@ -46,7 +46,7 @@ Note: zookeeper.properties file will be available in kafka/config folder. You ca
 
 Step-5: Start Kafka Server using below command from Kakfa folder
 
-    Command : kafka-server-start.bat server.properties
+    Command : .\bin\windows\kafka-server-start.bat .\config\server.properties
 
 Note: server.properties file will be available in config folder (Copied to windows folder)
 
