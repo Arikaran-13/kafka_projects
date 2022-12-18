@@ -50,9 +50,33 @@ Step-5: Start Kafka Server using below command from Kakfa folder
 
 Note: server.properties file will be available in config folder (Copied to windows folder)
 
-Step-6 : Create Kakfa Topic using below command from kafka/bin/windows folder
+Step-6 : Create Kakfa Topic using below command from kafka folder
 
-Command :  kafka-topics.bat --create --topic test-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
+Command : .\bin\windows\kafka-topics.bat --create --topic topic-example --bootstrap-server localhost:9092
+
+publish message through commad to specific topic :
+
+.\bin\windows\kafka-console-producer.bat --topic topic-example --bootstrap-server localhost:9092
+
+ ans:
+ 
+>Hi
+>Hello world
+>Vanderlande
+
+press ctrl + c to terminate the process
+
+
+consume the message from specific topic through commads :
+.\bin\windows\kafka-console-consumer.bat --topic topic-example --from-beginning --bootstrap-server localhost:9092
+
+ans :
+
+>Hi
+>Hello world
+>Vanderlande
+
+press ctrl + c to terminate the process
 
 Step-7 : View created Topics using below command
 
