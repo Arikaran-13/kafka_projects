@@ -36,9 +36,9 @@ Step-2 : Download Apache Kafka from below URL
 
 Step-3 : Set Path to ZOOKEEPER in Environment variables upto bin folder
 
-Step-4 : Start Zookeeper server using below command from Kafka folder
+Step-4 : Start Zookeeper server using below command from Kafka folder (C:kafka>>)
 
-    Command : ./bin/zookeeper-server-start.sh config/zookeeper.properties
+    Command : .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
 Note: Above command will available in kafka/bin/windows folder
 
